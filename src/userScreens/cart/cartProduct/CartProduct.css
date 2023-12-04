@@ -1,0 +1,12 @@
+.productCard {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .productCard {
+    width: 100%;
+  }
+  .quantityBtns {
+    display: none;
+  }
+}

@@ -1,0 +1,46 @@
+.detail-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.detail-page .imgBox {
+  width: 45%;
+  height: 100%;
+  padding-top: 70px;
+  padding-left: 50px;
+  /* background-color: yellow; */
+}
+
+.detail-page img {
+  width: 100%;
+  height: 350px;
+}
+
+.detail-page .content {
+  width: 55%;
+  height: 100%;
+  /* background-color: pink; */
+  padding: 100px 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .detail-page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail-page .imgBox {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+  .detail-page .content {
+    width: 100%;
+    height: auto;
+    /* background-color: pink; */
+    padding: 20px;
+  }
+}
